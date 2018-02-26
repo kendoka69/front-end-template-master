@@ -1,0 +1,13 @@
+.main-header {
+    color: rgb(35, 65, 122);
+    margin: auto;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+}
+
+.col-sm {
+    text-align: center;
+    color: rgb(35, 65, 122)
+}
+

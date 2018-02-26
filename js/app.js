@@ -1,5 +1,3 @@
-
-
 var videos = [
     "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=186s", 
     "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=215s", 
@@ -14,14 +12,16 @@ var videos = [
 ];
 
 
-function getVideo() {
-    var user_input = document.getElementById('myInput').value;
 
-    if (user_input < 1 || user_input > videos.length) {
-        alert("Please chose a number 1-10");
+
+function getVideo() {
+    var user_input = document.getElementById('myInput').value; //gets value of a text field
+
+    if (user_input < 1 || user_input > videos.length) { //if input is less than 1 or more than 10, alert!
+        alert("Please choose a number 1-10");
     } else {
-        var index = user_input - 1;
-        var chosen_vid = videos[index];
-        window.open(chosen_vid);
+        var index = user_input - 1; //adjusted user input to account for array index system
+        var chosen_vid = videos[index]; //accesses video in above array
+        window.open(chosen_vid); //opens video in a separate browers window
     }
 }

@@ -2,7 +2,7 @@
 
 ## Description
 ```
-A brief description of your project
+Website for Louisville Kendo Club.  Target audience is the beginner who would like to know more about our club and how to join.
 
 ```
 
