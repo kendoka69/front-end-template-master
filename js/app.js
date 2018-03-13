@@ -20,7 +20,7 @@ function getVideo() {
     if (user_input < 1 || user_input > videos.length) { //if input is less than 1 or more than 10, alert!
         alert("Please choose a number 1-10");
     } else {
-        var index = user_input - 1; //adjusted user input to account for array index system
+        var index = user_input - 1; //adjusts user input to account for array index system
         var chosen_vid = videos[index]; //accesses video in above array
         window.open(chosen_vid); //opens video in a separate browers window
     }

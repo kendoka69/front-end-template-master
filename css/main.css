@@ -1,24 +1,30 @@
 
+html,body {
+    margin:0;
+    padding:0;
+}
+
 .jumbotron {
     background-image: url('../img/groupChudanBlue.jpg');
     background-size: cover;
 }
 
-.col-lg, 
-.text-center {
-    text-align: center;
-    color: rgb(81, 103, 177)
+form {
+    width: auto;
+    font-size: 16px;
+    background-color: rgb(37, 55, 95);
+    color: white;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    
 }
 
-
-.kataSearch {
-    width: auto;
-    font-size: 18px;
-    background-color: rgb(36, 66, 121);
-    color: white;
-    padding-top: 15px;
-    padding-right: 40px;
-    padding-left: 35px;
+.about,
+.timesLocation {
+    padding-top: 25px;
+    color:  rgb(64, 95, 161);
 }
 
 div.gallery {
@@ -43,12 +49,39 @@ div.desc {
     box-sizing: border-box;
 }
 
+/********* Footer *********/
+footer {
+    width: auto;
+    background-color: rgb(37, 55, 95);
+    color: white;
+    height: 75px;
+}
+
+/* footer:nth-child(1) {
+    font-size: .75em;
+    margin-left: .75em;
+    
+}
+footer:nth-child(2) {
+    font-size: 2em;
+    margin-left: 3em;
+    
+} */
+
+/********* Image Gallery *********/
 .responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/********* Media Queries *********/
 @media only screen and (max-width: 700px){
     .responsive {
         width: 49.99999%;
