@@ -7,6 +7,7 @@ html,body {
 .jumbotron {
     background-image: url('../img/groupChudanBlue.jpg');
     background-size: cover;
+    /*margin-bottom: 0;*/
 }
 
 form {
@@ -18,7 +19,7 @@ form {
     padding-right: 40px;
     padding-bottom: 5px;
     padding-left: 35px;
-    
+    margin-bottom: 35px;
 }
 
 .about,
@@ -57,16 +58,6 @@ footer {
     height: 75px;
 }
 
-/* footer:nth-child(1) {
-    font-size: .75em;
-    margin-left: .75em;
-    
-}
-footer:nth-child(2) {
-    font-size: 2em;
-    margin-left: 3em;
-    
-} */
 
 /********* Image Gallery *********/
 .responsive {

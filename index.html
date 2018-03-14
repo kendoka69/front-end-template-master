@@ -11,12 +11,18 @@
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    
+
+      <nav class="d-flex flex-row-reverse">
+          <a class="nav-link " href="#">Links</a>
+          <a class="nav-link" href="#">Beginners</a>
+        </nav>
+  
 <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid text-white">
       <div class="container text-sm-center pt-5">
-      <h1 class="display-3">Louisville Kendo Club</h1>
-      </div>   
+          
+       <h1 class="display-3">Louisville Kendo Club</h1> 
+      </div>
     </div> 
 
 <!-- Kata Search form field -->  
@@ -26,7 +32,7 @@
           <div class="row">
             <div class="col">
               <h3><strong>Kata Search</strong></h3>
-              <input id="myInput" placeholder="enter a number" type="number">
+              <input id="myInput" placeholder="enter a number" type="text">
               <button id="myButton" onclick="getVideo()">Submit</button>
               <script src = "js/app.js"></script> 
             </div> 
@@ -166,7 +172,10 @@
             </div>
             
             <div class="col">
-              <img src="img/LKC_logo_green.png" style="width:75px; height:75px;">
+              <div class="d-flex justify-content-end">
+               <img src="img/LKC_logo_green.png" style="width:75px; height:75px;">
+               <img src="img/auskfLogo.gif" style="width:75px; height:75px;">
+              </div>
             </div>
           </div>
         </div>  
@@ -180,3 +189,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<!-- icon clipboard -->
+<i class="fab fa-facebook-square"></i>
