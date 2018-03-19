@@ -4,13 +4,13 @@ html,body {
     padding:0;
 }
 
-.jumbotron {
+.jumbotron-home {
     background-image: url('../img/groupChudanBlue.jpg');
     background-size: cover;
     /*margin-bottom: 0;*/
 }
 
-form {
+.video-form {
     width: auto;
     font-size: 16px;
     background-color: rgb(37, 55, 95);
@@ -51,7 +51,7 @@ div.desc {
 }
 
 /********* Footer *********/
-footer {
+.main-footer {
     width: auto;
     background-color: rgb(37, 55, 95);
     color: white;
