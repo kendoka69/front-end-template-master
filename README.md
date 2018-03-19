@@ -12,11 +12,11 @@ Website for Louisville Kendo Club.  Target audience is the beginner who would li
 ```
 The class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+1. <form> tag: created containter to hold form field and button.  width is auto to stretch across width of page.  
 
-2.
+2. <footer> tag: creates container to hold footer with address and links to national kendo federation.
 
+3. .about, .timesLocation: added padding so that content is placed where I wanted it.  Change text color.  
 ```
 
 
@@ -25,7 +25,4 @@ The class(es) I created are:
 ```
 The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
-
-```
+1. I created a Java Script function to display a requested video for the user into a separate window. 
